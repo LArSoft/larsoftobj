@@ -28,7 +28,7 @@ create_product_variables( canvas_root_io v1_05_02 )
 create_product_variables( gallery     v1_14_03 )
 create_product_variables( dk2nudata   v01_08_00g )
 create_product_variables( nusimdata   v1_21_03 )
-create_product_variables( mrb         v4_02_01 )
+create_product_variables( mrb         v4_03_00 )
 create_product_variables( hub         v2_12_4 )
 
 # these files should be copied to scisoft for each release

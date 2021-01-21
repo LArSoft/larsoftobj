@@ -9,9 +9,7 @@
 # It sets up the larsoftobj ups products (lardataobj, larcoreobj)
 # ======================================================================
 
-
-# use cmake 3.14 or later
-cmake_minimum_required (VERSION 3.12...3.14 FATAL_ERROR)
+cmake_minimum_required (VERSION 3.12...3.18 FATAL_ERROR)
 
 project(larsoftobj LANGUAGES NONE)
 

@@ -21,9 +21,6 @@ list(APPEND CMAKE_MODULE_PATH $ENV{CANVAS_ROOT_IO_DIR}/Modules)
 include(CetCMakeEnv)
 cet_cmake_env()
 
-# these are minimum required versions, not the actual product versions
-find_ups_product( cetbuildtools )
-
 # larsoftobj bundle scripts
 add_subdirectory(bundle)
 # ups - table and config files

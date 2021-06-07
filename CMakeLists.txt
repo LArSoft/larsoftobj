@@ -11,7 +11,7 @@
 
 cmake_minimum_required (VERSION 3.19 FATAL_ERROR)
 
-project(larsoftobj 09.05.04 LANGUAGES NONE)
+project(larsoftobj VERSION 09.05.04 LANGUAGES NONE)
 
 find_package(cetmodules REQUIRED)
 find_package(canvas_root_io)

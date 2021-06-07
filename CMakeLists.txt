@@ -9,14 +9,13 @@
 # It sets up the larsoftobj ups products (lardataobj, larcoreobj)
 # ======================================================================
 
-cmake_minimum_required (VERSION 3.12...3.18 FATAL_ERROR)
+cmake_minimum_required (VERSION 3.19 FATAL_ERROR)
 
-project(larsoftobj LANGUAGES NONE)
+project(larsoftobj 09.05.04 LANGUAGES NONE)
 
-# cetbuildtools contains our cmake modules
-find_package(cetbuildtools REQUIRED)
-
-list(APPEND CMAKE_MODULE_PATH $ENV{CANVAS_ROOT_IO_DIR}/Modules)
+find_package(cetmodules REQUIRED)
+find_package(canvas_root_io)
+find_package(art)
 
 include(CetCMakeEnv)
 cet_cmake_env()
@@ -24,7 +23,9 @@ cet_cmake_env()
 # larsoftobj bundle scripts
 add_subdirectory(bundle)
 # ups - table and config files
+if(WANT_UPS)
 add_subdirectory(ups)
+endif()
 
 # packaging utility
 include(UseCPack)

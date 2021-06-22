@@ -1,0 +1,5 @@
+find_package(nusimdata REQUIRED)
+find_package(lardataalg REQUIRED)
+find_package(lardataobj REQUIRED)
+find_package(larcorealg REQUIRED)
+find_package(larcoreobj REQUIRED)

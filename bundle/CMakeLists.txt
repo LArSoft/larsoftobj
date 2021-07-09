@@ -24,11 +24,11 @@ create_product_variables( lardataobj  v09_01_03 )
 create_product_variables( lardataalg  v09_04_04 )
 create_product_variables( larsoftobj  v09_05_04 )
 
-create_product_variables( canvas_root_io v1_07_02 )
-create_product_variables( gallery     v1_16_02 )
-create_product_variables( dk2nudata   v01_10_00 )
-create_product_variables( nusimdata   v1_22_03 )
-create_product_variables( mrb         v4_04_05 )
+create_product_variables( canvas_root_io v1_09_03 )
+create_product_variables( gallery     v1_18_03 )
+create_product_variables( dk2nudata   v01_10_00c )
+create_product_variables( nusimdata   v1_24_03 )
+create_product_variables( mrb         v5_11_01 )
 create_product_variables( hub         v2_12_4 )
 
 # these files should be copied to scisoft for each release

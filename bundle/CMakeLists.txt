@@ -29,7 +29,7 @@ create_product_variables( gallery     v1_16_03 )
 create_product_variables( dk2nudata   v01_10_00b )
 create_product_variables( nusimdata   v1_22_04 )
 create_product_variables( mrb         v4_04_06 )
-create_product_variables( hub         v2_12_4 )
+create_product_variables( hub         v2_14_2 )
 
 # these files should be copied to scisoft for each release
 configure_file(${CMAKE_CURRENT_SOURCE_DIR}/larsoftobj-cfg.in

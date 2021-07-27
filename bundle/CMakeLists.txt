@@ -18,11 +18,11 @@ endmacro( create_product_variables)
 # define qualifiers
 set( BASEQUAL e20 )
 
-create_product_variables( larcoreobj  v09_30_00_rc0 )
-create_product_variables( larcorealg  v09_30_00_rc0 )
-create_product_variables( lardataobj  v09_30_00_rc0 )
-create_product_variables( lardataalg  v09_30_00_rc0 )
-create_product_variables( larsoftobj  v09_30_00_rc0 )
+create_product_variables( larcoreobj  v09_30_00_rc1 )
+create_product_variables( larcorealg  v09_30_00_rc1 )
+create_product_variables( lardataobj  v09_30_00_rc1 )
+create_product_variables( lardataalg  v09_30_00_rc1 )
+create_product_variables( larsoftobj  v09_30_00_rc1 )
 
 create_product_variables( canvas_root_io v1_09_04 )
 create_product_variables( gallery     v1_18_04 )

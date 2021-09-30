@@ -68,8 +68,8 @@ create_product_variables( hub         v2_14_2 )
 # CMake, cetbuildtools, and cetmodules are special: 
 #  define as many versions as necessary.
 #create_version_variables(cmake LIST v3_17_3 v3_18_2 v3_19_6 v3_20_0)
-create_version_variables(cetbuildtools LIST v8_12_00 v8_13_02 v8_13_03 v8_14_00 v8_14_01 v8_14_02 v8_15_00 v8_17_03 v8_18_00)
-create_version_variables(cetmodules LIST v2_22_00 v2_23_02 v2_23_03 v2_24_00 v2_24_01 v2_24_02 v2_25_01 v2_26_00 v2_28_03 v2_29_00 v2_29_01)
+create_version_variables(cetbuildtools LIST v8_12_00 v8_13_02 v8_13_03 v8_14_00 v8_14_01 v8_14_02 v8_15_00 v8_17_03 v8_18_00 v8_18_01)
+create_version_variables(cetmodules LIST v2_22_00 v2_23_02 v2_23_03 v2_24_00 v2_24_01 v2_24_02 v2_25_01 v2_26_00 v2_28_03 v2_29_00 v2_29_01 v2_29_02)
 
 # these files should be copied to scisoft for each release
 configure_file(${CMAKE_CURRENT_SOURCE_DIR}/larsoftobj-cfg.in

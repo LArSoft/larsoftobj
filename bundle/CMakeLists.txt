@@ -52,11 +52,11 @@ endfunction()
 # define qualifiers
 set( BASEQUAL e20 )
 
-create_product_variables( larcoreobj v09_03_00 )
-create_product_variables( larcorealg v09_03_00 )
-create_product_variables( lardataobj v09_03_02 )
-create_product_variables( lardataalg v09_06_02 )
-create_product_variables( larsoftobj v09_10_02 )
+create_product_variables( larcoreobj v09_03_01 )
+create_product_variables( larcorealg v09_03_01 )
+create_product_variables( lardataobj v09_03_03 )
+create_product_variables( lardataalg v09_07_00 )
+create_product_variables( larsoftobj v09_11_00 )
 
 create_product_variables( canvas_root_io v1_09_04 )
 create_product_variables( gallery     v1_18_04 )
@@ -68,8 +68,8 @@ create_product_variables( hub         v2_14_2 )
 # CMake, cetbuildtools, and cetmodules are special: 
 #  define as many versions as necessary.
 #create_version_variables(cmake LIST v3_17_3 v3_18_2 v3_19_6 v3_20_0)
-create_version_variables(cetbuildtools LIST v8_12_00 v8_13_02 v8_13_03 v8_14_00 v8_14_01 v8_14_02 v8_15_00 v8_17_03 v8_18_00 v8_18_01 v8_18_04)
-create_version_variables(cetmodules LIST v2_22_00 v2_23_02 v2_23_03 v2_24_00 v2_24_01 v2_24_02 v2_25_01 v2_26_00 v2_28_03 v2_29_00 v2_29_01 v2_29_02 v2_29_06)
+create_version_variables(cetbuildtools LIST v8_18_00 v8_18_01 v8_18_04 v8_18_05)
+create_version_variables(cetmodules LIST v2_29_00 v2_29_01 v2_29_02 v2_29_06 v2_29_07)
 
 # these files should be copied to scisoft for each release
 configure_file(${CMAKE_CURRENT_SOURCE_DIR}/larsoftobj-cfg.in

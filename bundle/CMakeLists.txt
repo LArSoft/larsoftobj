@@ -54,15 +54,15 @@ set( BASEQUAL e20 )
 
 create_product_variables( larcoreobj v09_03_01 )
 create_product_variables( larcorealg v09_03_01 )
-create_product_variables( lardataobj v09_03_03 )
-create_product_variables( lardataalg v09_07_00 )
-create_product_variables( larsoftobj v09_11_00 )
+create_product_variables( lardataobj v09_03_04 )
+create_product_variables( lardataalg v09_07_01 )
+create_product_variables( larsoftobj v09_11_01 )
 
 create_product_variables( canvas_root_io v1_09_04 )
 create_product_variables( gallery     v1_18_04 )
 create_product_variables( dk2nudata   v01_10_00d )
-create_product_variables( nusimdata v1_24_05 )
-create_product_variables( mrb v5_19_04 )
+create_product_variables( nusimdata v1_24_06 )
+create_product_variables( mrb v5_19_05 )
 create_product_variables( hub         v2_14_2 )
 
 # CMake, cetbuildtools, and cetmodules are special: 

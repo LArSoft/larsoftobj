@@ -11,17 +11,18 @@ bindir      -
 product         version
 lardataalg      v09_09_00
 lardataobj      v09_04_00
+larvecutils     v09_00_00
 gallery         v1_18_04
 cetbuildtools	v8_18_09   -   only_for_build
 end_product_list
 
-qualifier	lardataobj	lardataalg	gallery
-e20:debug	e20:debug	e20:debug	e20:debug
-e20:prof	e20:prof	e20:prof	e20:prof
-e19:debug	e19:debug	e19:debug	e19:debug
-e19:prof	e19:prof	e19:prof	e19:prof
-c7:debug	c7:debug	c7:debug	c7:debug
-c7:prof		c7:prof		c7:prof		c7:prof
+qualifier  lardataobj  lardataalg  larvecutils  gallery
+e20:debug  e20:debug   e20:debug   e20:debug    e20:debug
+e20:prof   e20:prof    e20:prof    e20:prof     e20:prof
+e19:debug  e19:debug   e19:debug   e19:debug    e19:debug
+e19:prof   e19:prof    e19:prof    e19:prof     e19:prof
+c7:debug   c7:debug    c7:debug    c7:debug     c7:debug
+c7:prof    c7:prof     c7:prof     c7:prof      c7:prof
 end_qualifier_list
 
 # Preserve tabs and formatting in emacs and vi / vim:

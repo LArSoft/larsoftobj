@@ -54,10 +54,10 @@ set( BASEQUAL e20 )
 
 create_product_variables( larcoreobj v09_04_00 )
 create_product_variables( larcorealg v09_05_00 )
-create_product_variables( lardataobj v09_04_00 )
-create_product_variables( lardataalg v09_09_00 )
+create_product_variables( lardataobj v09_05_00 )
+create_product_variables( lardataalg v09_09_01 )
 create_product_variables( larvecutils v09_00_00 )
-create_product_variables( larsoftobj v09_15_00 )
+create_product_variables( larsoftobj v09_16_00 )
 
 create_product_variables( canvas_root_io v1_09_04 )
 create_product_variables( gallery     v1_18_04 )

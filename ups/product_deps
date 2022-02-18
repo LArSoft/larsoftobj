@@ -253,7 +253,7 @@ gallery		v1_18_04	-
 lardataalg	v09_09_02	-
 lardataobj	v09_05_01	-
 larvecutils	v09_00_01	-
-cetmodules	v3_05_03	-	only_for_build
+cetmodules	v3_05_04	-	only_for_build
 end_product_list
 ####################################
 

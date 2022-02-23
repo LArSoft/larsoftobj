@@ -65,6 +65,7 @@ create_product_variables( dk2nudata   v01_10_00d )
 create_product_variables( nusimdata v1_25_02 )
 create_product_variables( mrb v6_03_01 )
 create_product_variables( hub         v2_14_2 )
+create_product_variables( gh v2_5_1b )
 
 # CMake, cetbuildtools, and cetmodules are special: 
 #  define as many versions as necessary.

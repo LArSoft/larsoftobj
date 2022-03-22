@@ -9,8 +9,8 @@ fcldir      -
 bindir      -
 #
 product         version
-lardataalg      v09_07_02
-lardataobj      v09_03_05
+lardataalg      v09_07_02_01
+lardataobj      v09_03_05_01
 gallery         v1_18_04
 cetbuildtools	v8_18_05   -   only_for_build
 end_product_list

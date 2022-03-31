@@ -54,16 +54,16 @@ set( BASEQUAL e20 )
 
 create_product_variables( larcoreobj v09_05_00 )
 create_product_variables( larcorealg v09_06_00 )
-create_product_variables( lardataobj v09_06_00 )
-create_product_variables( lardataalg v09_10_00 )
+create_product_variables( lardataobj v09_06_01 )
+create_product_variables( lardataalg v09_10_01 )
 create_product_variables( larvecutils v09_01_00 )
-create_product_variables( larsoftobj v09_17_00 )
+create_product_variables( larsoftobj v09_17_01 )
 
 create_product_variables( canvas_root_io v1_09_04 )
 create_product_variables( gallery     v1_18_04 )
 create_product_variables( dk2nudata   v01_10_00d )
 create_product_variables( nusimdata v1_25_02 )
-create_product_variables( mrb v6_03_01 )
+create_product_variables( mrb v6_04_01 )
 create_product_variables( hub         v2_14_2 )
 create_product_variables( gh v2_5_1b )
 
@@ -71,7 +71,7 @@ create_product_variables( gh v2_5_1b )
 #  define as many versions as necessary.
 create_version_variables(cmake LIST v3_17_3 v3_18_2 v3_19_6 v3_20_0 v3_21_4 v3_22_0 v3_22_2)
 create_version_variables(cetbuildtools LIST v8_18_01 v8_18_04 v8_18_05 v8_18_09 v8_19_02)
-create_version_variables(cetmodules LIST v2_29_00 v2_29_02 v2_29_05 v2_29_06 v2_29_12 v2_29_14 v2_31_01 v3_02_01 v3_05_03 v3_05_04 v3_06_00 v3_06_01)
+create_version_variables(cetmodules LIST v2_29_00 v2_29_02 v2_29_05 v2_29_06 v2_29_12 v2_29_14 v2_31_01 v3_02_01 v3_05_03 v3_05_04 v3_06_00 v3_06_01 v3_09_01 v3_09_03)
 
 # these files should be copied to scisoft for each release
 configure_file(${CMAKE_CURRENT_SOURCE_DIR}/larsoftobj-cfg.in

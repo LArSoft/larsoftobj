@@ -250,9 +250,9 @@ incdir	-
 ####################################
 product		version		qual	flags		<table_format=2>
 gallery		v1_18_04	-
-lardataalg	v09_10_03	-
-lardataobj	v09_06_03	-
-larvecutils	v09_01_00	-
+lardataalg	v09_10_04	-
+lardataobj	v09_06_04	-
+larvecutils	v09_01_01	-
 cetmodules	v3_09_03	-	only_for_build
 end_product_list
 ####################################

@@ -12,7 +12,7 @@
 cmake_minimum_required(VERSION 3.20 FATAL_ERROR)
 
 find_package(cetmodules REQUIRED)
-project(larsoftobj VERSION 09.17.04 LANGUAGES NONE)
+project(larsoftobj VERSION 09.18.00 LANGUAGES NONE)
 
 # cetbuildtools contains our cmake modules
 

@@ -55,7 +55,7 @@ set( BASEQUAL e20 )
 create_product_variables( larcoreobj v09_05_02 )
 create_product_variables( larcorealg v09_06_05 )
 create_product_variables( lardataobj v09_10_00 )
-create_product_variables( lardataalg v09_10_08 )
+create_product_variables( lardataalg v09_10_09 )
 create_product_variables( larvecutils v09_01_01 )
 create_product_variables( larsoftobj v09_21_00 )
 

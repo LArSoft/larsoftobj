@@ -53,19 +53,19 @@ endfunction()
 set( BASEQUAL e20 )
 
 create_product_variables( larcoreobj v09_07_00 )
-create_product_variables( larcorealg v09_09_00 )
-create_product_variables( lardataobj v09_13_03 )
-create_product_variables( lardataalg v09_13_00 )
+create_product_variables( larcorealg v09_10_00 )
+create_product_variables( lardataobj v09_13_04 )
+create_product_variables( lardataalg v09_13_01 )
 create_product_variables( larvecutils v09_02_00 )
-create_product_variables( larsoftobj v09_27_00 )
+create_product_variables( larsoftobj v09_28_00 )
 
 create_product_variables( canvas_root_io v1_09_05 )
 create_product_variables( gallery v1_18_05 )
 create_product_variables( dk2nudata v01_10_01a )
 create_product_variables( nusimdata v1_26_02 )
-create_product_variables( mrb v6_07_08 )
+create_product_variables( mrb v6_08_00 )
 create_product_variables( hub         v2_14_2 )
-create_product_variables( gh v2_10_1 )
+create_product_variables( gh v2_14_4 )
 
 # CMake, cetbuildtools, and cetmodules are special: 
 #  define as many versions as necessary.

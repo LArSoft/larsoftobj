@@ -63,7 +63,7 @@ create_product_variables( canvas_root_io v1_11_02 )
 create_product_variables( gallery v1_20_02 )
 create_product_variables( dk2nudata v01_10_01d )
 create_product_variables( nusimdata v1_27_01 )
-create_product_variables( mrb v6_08_00 )
+create_product_variables( mrb v6_08_03 )
 create_product_variables( hub         v2_14_2 )
 create_product_variables( gh v2_14_4 )
 

@@ -87,7 +87,7 @@
 #>  define_pythonpath
 ####################################
 parent		larsoftobj
-defaultqual	e20
+defaultqual	e26
 ####################################
 
 ####################################
@@ -250,9 +250,9 @@ incdir	-
 ####################################
 product		version		qual	flags		<table_format=2>
 gallery		v1_20_02	-
-lardataalg	v09_16_01	-
-lardataobj	v09_16_02	-
-larvecutils	v09_04_00	-
+lardataalg	v09_16_02	-
+lardataobj	v09_16_03	-
+larvecutils	v09_04_01	-
 cetmodules	v3_20_00	-	only_for_build
 end_product_list
 ####################################
@@ -311,12 +311,8 @@ end_product_list
 qualifier	lardataobj	lardataalg	larvecutils	gallery
 c14:debug	c14:debug	c14:debug	c14:debug	c14:debug
 c14:prof	c14:prof	c14:prof	c14:prof	c14:prof
-c7:debug	c7:debug	c7:debug	c7:debug	c7:debug
-c7:prof		c7:prof		c7:prof		c7:prof		c7:prof
 e26:debug	e26:debug	e26:debug	e26:debug	e26:debug
 e26:prof	e26:prof	e26:prof	e26:prof	e26:prof
-e20:debug	e20:debug	e20:debug	e20:debug	e20:debug
-e20:prof	e20:prof	e20:prof	e20:prof	e20:prof
 end_qualifier_list
 ####################################
 

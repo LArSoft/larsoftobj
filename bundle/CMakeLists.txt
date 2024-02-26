@@ -59,10 +59,10 @@ create_product_variables( lardataalg v09_90_00rc1 )
 create_product_variables( larvecutils v09_04_01 )
 create_product_variables( larsoftobj v09_90_00rc1 )
 
-create_product_variables( canvas_root_io v1_13_03 )
-create_product_variables( gallery v1_22_03 )
-create_product_variables( dk2nudata v01_10_01f )
-create_product_variables( nusimdata v1_28_01 )
+create_product_variables( canvas_root_io v1_13_04 )
+create_product_variables( gallery v1_22_04 )
+create_product_variables( dk2nudata v01_10_01g )
+create_product_variables( nusimdata v1_28_02 )
 create_product_variables( mrb v6_09_05 )
 create_product_variables( hub         v2_14_2 )
 create_product_variables( gh v2_25_1 )
@@ -71,7 +71,7 @@ create_product_variables( gh v2_25_1 )
 #  define as many versions as necessary.
 create_version_variables(cmake LIST v3_20_0 v3_21_4 v3_22_0 v3_22_2 v3_24_1 v3_25_2 v3_27_4)
 ##create_version_variables(cetbuildtools LIST v8_20_00)
-create_version_variables(cetmodules LIST v3_16_00 v3_20_00 v3_22_02)
+create_version_variables(cetmodules LIST v3_16_00 v3_20_00 v3_22_02 v3_24_01)
 
 create_version_variables(ups v6_1_1)
 

@@ -249,11 +249,11 @@ incdir	-
 #
 ####################################
 product		version		qual	flags		<table_format=2>
-gallery		v1_20_03	-
-lardataalg	v09_16_08	-
-lardataobj	v09_17_03	-
+gallery		v1_22_05	-
+lardataalg	v09_17_00	-
+lardataobj	v09_18_00	-
 larvecutils	v09_04_01	-
-cetmodules	v3_20_00	-	only_for_build
+cetmodules	v3_24_01	-	only_for_build
 end_product_list
 ####################################
 

@@ -17,7 +17,7 @@ project(larsoftobj LANGUAGES NONE)
 # cetbuildtools contains our cmake modules
 
 include(CetCMakeEnv)
-set(${PROJECT_NAME}_CMAKE_PROJECT_VERSION_STRING 10.00.00-rc0)
+set(${PROJECT_NAME}_CMAKE_PROJECT_VERSION_STRING 10.00.00-rc1)
 cet_cmake_env()
 
 # larsoftobj bundle scripts

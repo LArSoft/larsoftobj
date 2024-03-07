@@ -51,12 +51,12 @@ endfunction()
 # define qualifiers
 set( BASEQUAL e26 )
 
-create_product_variables( larcoreobj v10_00_00rc0 )
-create_product_variables( larcorealg v10_00_00rc0 )
-create_product_variables( lardataobj v10_00_00rc0 )
-create_product_variables( lardataalg v10_00_00rc0 )
-create_product_variables( larvecutils v10_00_00rc0 )
-create_product_variables( larsoftobj v10_00_00rc0 )
+create_product_variables( larcoreobj v10_00_00rc1 )
+create_product_variables( larcorealg v10_00_00rc1 )
+create_product_variables( lardataobj v10_00_00rc1 )
+create_product_variables( lardataalg v10_00_00rc1 )
+create_product_variables( larvecutils v09_04_01 )
+create_product_variables( larsoftobj v10_00_00rc1 )
 
 create_product_variables( canvas_root_io v1_13_05 )
 create_product_variables( gallery v1_22_05 )

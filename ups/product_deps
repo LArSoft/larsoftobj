@@ -249,7 +249,7 @@ incdir	-
 #
 ####################################
 product		version		qual	flags		<table_format=2>
-gallery		v1_22_05	-
+gallery		v1_22_06	-
 lardataalg	v10_00_00rc1	-
 lardataobj	v10_00_00rc1	-
 larvecutils	v09_04_01	-

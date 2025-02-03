@@ -26,7 +26,7 @@
 <h2>Release notes.</h2>
 
 <ul>
-  <li><a href="https://cdcvs.fnal.gov/redmine/projects/cet-is/wiki/Supported_platforms">Supported Platforms</a></li>
+  <li><a href="https://larsoft.github.io/LArSoftWiki/Supported_platforms">Supported Platforms</a></li>
   <li>To check available distributions, use <a href="http://scisoft.fnal.gov/scisoft/bundles/tools/getManifestList">getManifestList</a>: <br>
        getManifestList [bundle name] [bundle version]</li>
 </ul>

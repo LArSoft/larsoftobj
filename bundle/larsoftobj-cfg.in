@@ -37,7 +37,9 @@ build_cet -G art-framework-suite mrb @MRB_VERSION@
 
 do_build dk2nudata @DK2NUDATA_VERSION@ ${basequal}
 
-build_cet nusimdata  @NUSIMDATA_VERSION@ ${basequal}
+build_cet -f NULL -G NuSoftHEP nufinder @NUFINDER_VERSION@
+build_cet -G NuSoftHEP nusimdata  @NUSIMDATA_VERSION@ ${basequal}
+
 build_cet -G LArSoft larcoreobj @LARCOREOBJ_VERSION@ ${basequal}
 build_cet -G LArSoft -n larcorealg @LARCOREALG_VERSION@ ${basequal}
 build_cet -G LArSoft lardataobj @LARDATAOBJ_VERSION@ ${basequal}

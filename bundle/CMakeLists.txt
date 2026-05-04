@@ -52,26 +52,26 @@ endfunction()
 # define qualifiers
 set( BASEQUAL e26 )
 
-create_product_variables( larcoreobj v10_00_00 )
-create_product_variables( larcorealg v10_00_03 )
-create_product_variables( lardataobj v10_05_00 )
-create_product_variables( lardataalg v10_02_01 )
-create_product_variables( larvecutils v09_04_02 )
-create_product_variables( larsoftobj v10_06_00 )
+create_product_variables( larcoreobj v10_00_01 )
+create_product_variables( larcorealg v10_00_04 )
+create_product_variables( lardataobj v10_05_01 )
+create_product_variables( lardataalg v10_02_02 )
+create_product_variables( larvecutils v09_04_03 )
+create_product_variables( larsoftobj v10_06_01 )
 
 create_product_variables( canvas_root_io v1_13_06 )
 create_product_variables( gallery v1_22_06 )
 create_product_variables( dk2nudata v01_11_00 )
-create_version_variables(nufinder v1_03_00)
-create_product_variables( nusimdata v1_29_02 )
-create_product_variables( mrb v6_09_11 )
+create_version_variables(nufinder v1_03_01)
+create_product_variables( nusimdata v1_29_03 )
+create_product_variables( mrb v6_09_12 )
 create_product_variables( hub         v2_14_2 )
 create_product_variables( gh v2_25_1 )
 
 # CMake and cetmodules are special:
 #  define as many versions as necessary.
 create_version_variables(cmake LIST v3_20_0 v3_21_4 v3_22_0 v3_22_2 v3_24_1 v3_25_2 v3_27_4)
-create_version_variables(cetmodules LIST v3_16_00 v3_20_00 v3_22_02 v3_24_01)
+create_version_variables(cetmodules LIST v3_16_00 v3_20_00 v3_22_02 v3_24_01 v3_27_04)
 
 create_version_variables(ups v6_1_1)
 

@@ -64,7 +64,7 @@ create_product_variables( gallery v1_22_06 )
 create_product_variables( dk2nudata v01_11_00 )
 create_version_variables(nufinder v1_03_01)
 create_product_variables( nusimdata v1_29_03 )
-create_product_variables( mrb v6_09_12 )
+create_product_variables( mrb v6_09_13 )
 create_product_variables( hub         v2_14_2 )
 create_product_variables( gh v2_25_1 )
 

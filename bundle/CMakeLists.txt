@@ -51,6 +51,8 @@ endfunction()
 
 # define qualifiers
 set( BASEQUAL e26 )
+# for use in html
+set( supported_quals_string "e26|e28|c14")
 
 create_product_variables( larcoreobj v10_00_03 )
 create_product_variables( larcorealg v10_00_06 )

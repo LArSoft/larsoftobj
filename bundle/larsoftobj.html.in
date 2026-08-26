@@ -41,7 +41,7 @@
     <ul>
       <li>Download the script.</li>
       <li>chmod +x pullProducts</li>
-      <li>Scientific Linux 7.x: <pre>./pullProducts &lt;product-directory&gt; slf7 larsoftobj-@LARSOFTOBJ_VERSION@ @BASEQUAL@ &lt;prof|debug&gt;</pre></li>
+      <li>Scientific Linux 7.x: <pre>./pullProducts &lt;product-directory&gt; slf7 larsoftobj-@LARSOFTOBJ_VERSION@ &lt;@supported_quals_string@&gt; &lt;prof|debug&gt;</pre></li>
     </ul></li>
   </ul></li>
   <li>See <a href="https://cdcvs.fnal.gov/redmine/projects/cet-is-public/wiki/AboutQualifiers">About Qualifiers</a> for qualifier descriptions.</li>
@@ -56,15 +56,15 @@ The following products are part of the larsoftobj suite.
 Note that gallery is provided as a convenience to the user and is part of the larsoftobj umbrella.
 </td></tr>
 <tr><td colspan="3"><b>Code:</b></td></tr>
-<tr><td>&nbsp;&nbsp;  canvas_root_io     </td>  <td> @CANVAS_ROOT_IO_VERSION@ </td>  <td>@BASEQUAL@</td></tr>
-<tr><td>&nbsp;&nbsp;  nusimdata      </td>  <td> @NUSIMDATA_VERSION@	</td>  <td>@BASEQUAL@</td></tr>
-<tr><td>&nbsp;&nbsp;  larcoreobj   </td>  <td> @LARCOREOBJ_VERSION@ </td>  <td>@BASEQUAL@</td></tr>
-<tr><td>&nbsp;&nbsp;  larcorealg   </td>  <td> @LARCOREALG_VERSION@ </td>  <td>@BASEQUAL@</td></tr>
-<tr><td>&nbsp;&nbsp;  lardataobj     </td>  <td> @LARDATAOBJ_VERSION@ </td>  <td>@BASEQUAL@</td></tr>
-<tr><td>&nbsp;&nbsp;  lardataalg     </td>  <td> @LARDATAALG_VERSION@ </td>  <td>@BASEQUAL@</td></tr>
-<tr><td>&nbsp;&nbsp;  larvecutils     </td>  <td> @LARVECUTILS_VERSION@ </td>  <td>@BASEQUAL@</td></tr>
-<tr><td>&nbsp;&nbsp;  gallery     </td>  <td> @GALLERY_VERSION@ </td>  <td>@BASEQUAL@</td></tr>
-<tr><td>&nbsp;&nbsp;  larsoftobj     </td>  <td> @LARSOFTOBJ_VERSION@ </td>  <td>@BASEQUAL@</td></tr>
+<tr><td>&nbsp;&nbsp;  canvas_root_io     </td>  <td> @CANVAS_ROOT_IO_VERSION@ </td>  <td>&lt;@supported_quals_string@&gt;</td></tr>
+<tr><td>&nbsp;&nbsp;  nusimdata      </td>  <td> @NUSIMDATA_VERSION@	</td>  <td>&lt;@supported_quals_string@&gt;</td></tr>
+<tr><td>&nbsp;&nbsp;  larcoreobj   </td>  <td> @LARCOREOBJ_VERSION@ </td>  <td>&lt;@supported_quals_string@&gt;</td></tr>
+<tr><td>&nbsp;&nbsp;  larcorealg   </td>  <td> @LARCOREALG_VERSION@ </td>  <td>&lt;@supported_quals_string@&gt;</td></tr>
+<tr><td>&nbsp;&nbsp;  lardataobj     </td>  <td> @LARDATAOBJ_VERSION@ </td>  <td>&lt;@supported_quals_string@&gt;</td></tr>
+<tr><td>&nbsp;&nbsp;  lardataalg     </td>  <td> @LARDATAALG_VERSION@ </td>  <td>&lt;@supported_quals_string@&gt;</td></tr>
+<tr><td>&nbsp;&nbsp;  larvecutils     </td>  <td> @LARVECUTILS_VERSION@ </td>  <td>&lt;@supported_quals_string@&gt;</td></tr>
+<tr><td>&nbsp;&nbsp;  gallery     </td>  <td> @GALLERY_VERSION@ </td>  <td>&lt;@supported_quals_string@&gt;</td></tr>
+<tr><td>&nbsp;&nbsp;  larsoftobj     </td>  <td> @LARSOFTOBJ_VERSION@ </td>  <td>&lt;@supported_quals_string@&gt;</td></tr>
 <tr><td colspan="3"><b>Utilities:</b></td></tr>
 <tr><td>&nbsp;&nbsp;  hub          </td>  <td> @HUB_VERSION@ </td>  <td>&nbsp;</td></tr>
 <tr><td>&nbsp;&nbsp;  gh          </td>  <td> @GH_VERSION@ </td>  <td>&nbsp;</td></tr>
